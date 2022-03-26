@@ -47,7 +47,7 @@ Variables
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
   --transition: all 0.3s linear;
-  --spacing: 0.25rem;
+  --spacing: 0.1rem;
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -69,7 +69,7 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
+  background: #05386b;
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -186,8 +186,8 @@ Questions
   margin-bottom: 4rem;
 }
 .title h2 {
-  color: var(--clr-gold);
-  font-family: "Great Vibes", cursive;
+  color: white;
+  font-family: "Open Sans", Times;
   text-align: center;
 }
 .section-center {
@@ -204,7 +204,7 @@ Questions
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-transform: capitalize;
+  text-transform: lowercase;
   padding-bottom: 1rem;
 }
 .question-title p {
@@ -217,7 +217,7 @@ Questions
   background: transparent;
   border-color: transparent;
   cursor: pointer;
-  color: var(--clr-gold);
+  color: #05386b;
   transition: var(--transition);
 }
 .question-btn:hover {
